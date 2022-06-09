@@ -28,5 +28,14 @@ sudo chown -r djubli:djubli Djubli-test (and move the file to djubli user)
 ```
 npm init
 npm i express pg
+su - djubli
+cd /path/to/folder/djubli-test
 node index.js
 ```
+
+## Endpoint
+
+GET http://localhost:3000/car/\<id>
+GET http://localhost:3000/car_credit/\<id>
+PUT http://localhost:3000/car/\<id>
+DELETE http://localhost:3000/car/\<id>

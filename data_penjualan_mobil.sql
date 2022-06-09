@@ -15,12 +15,12 @@ CREATE TABLE "public"."car_list" (
 
 TRUNCATE "car_list";
 INSERT INTO "car_list" ("car_id", "brand_name", "model_id", "car_year", "price", "credit_price", "user_id", "posting_at") VALUES
-(1,	'Mazda 6',	1,	2014,	280000000,	255000000,	1,	'2021-01-01 00:00:00'),
 (3,	'Honda',	3,	2014,	240000000,	225000000,	3,	'2021-01-06 08:00:00'),
 (2,	'Honda',	2,	2016,	0,	245000000,	2,	'2021-01-05 08:46:12'),
 (4,	'Mazda 2.5',	1,	2015,	0,	265000000,	4,	'2021-01-20 08:00:00'),
 (5,	'Honda',	4,	2017,	0,	383000000,	5,	'2021-02-01 08:00:00'),
-(6,	'Mercedes',	5,	0,	500000000,	0,	6,	'2021-02-05 08:00:00');
+(6,	'Mercedes',	5,	0,	500000000,	0,	6,	'2021-02-05 08:00:00'),
+(1,	'Mazda 6',	1,	2014,	280000000,	255000000,	1,	'2021-01-01 00:00:00');
 
 DROP TABLE IF EXISTS "car_model";
 DROP SEQUENCE IF EXISTS car_model_model_id_seq;
@@ -80,4 +80,4 @@ INSERT INTO "seller_profile" ("user_id", "username", "address", "phone") VALUES
 (5,	'PT. Jaya Sejahtera',	'Jakarta',	812345682),
 (6,	'Nita',	'Bandung',	812345683);
 
--- 2022-06-07 13:03:02.833648+00
+-- 2022-06-09 18:19:48.348592+00
